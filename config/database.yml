@@ -6,19 +6,19 @@ production:
   password: jlZB7lwS3_P9g1fiH-0qjDecvY
   port: 5432
 
-development:
-  adapter: postgresql
-  database: d68rtln15e8hbr
-  host: ec2-54-243-229-57.compute-1.amazonaws.com
-  user: sembfxvxuvmimc
-  password: jlZB7lwS3_P9g1fiH-0qjDecvY
-  port: 5432
-
 # development:
-#   adapter: sqlite3
-#   database: db/development.sqlite3
-#   pool: 5
-#   timeout: 5000
+#   adapter: postgresql
+#   database: d68rtln15e8hbr
+#   host: ec2-54-243-229-57.compute-1.amazonaws.com
+#   user: sembfxvxuvmimc
+#   password: jlZB7lwS3_P9g1fiH-0qjDecvY
+#   port: 5432
+
+development:
+  adapter: sqlite3
+  database: db/development.sqlite3
+  pool: 5
+  timeout: 5000
 
 # test:
 #   adapter: sqlite3
