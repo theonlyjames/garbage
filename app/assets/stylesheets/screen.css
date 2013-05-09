@@ -1,11 +1,14 @@
-// -----  Reset - modified from http://meyerweb.com/eric/tools/css/reset/ ----- //
+/* HIDE */
+
+
+
 
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, strong, b, ol, ul, li, form, label { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 body { line-height: 1; }
 ol, ul { list-style: none; }
 
 
-// ----- Global ----- //
+
 
 html {
   background: #e4b897;
@@ -20,7 +23,7 @@ body {
   padding: 50px;
 }
 
-// ----- Base ----- //
+
 
 .content {
   background: #fff;
@@ -31,7 +34,6 @@ body {
 }
 
 
-// ----- Text ----- //
 
 h1 {
   font: bold 4em/80px ;
