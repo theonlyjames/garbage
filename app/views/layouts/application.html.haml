@@ -16,8 +16,6 @@
     = javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"
     = javascript_include_tag "application"
   %body
-    %a.sash{:href => "https://github.com/sferik/sign-in-with-twitter"}
-      = image_tag("fork-me-on-github.png", :alt => t("nav.sash"), :id => "sash")
     .navbar.navbar-fixed-top
       .navbar-inner
         .container
@@ -29,20 +27,8 @@
           .nav-collapse
             %ul.nav
               %li
-                %a{:href => "https://dev.twitter.com/docs/auth/implementing-sign-twitter"}
-                  = t("nav.documentation")
-              %li
-                %a{:href => "https://dev.twitter.com/docs/sign-twitter-resources"}
-                  = t("nav.resources")
-              %li
-                %a{:href => "http://travis-ci.org/sferik/sign-in-with-twitter"}
-                  = t("nav.build_status")
-              %li
-                %a{:href => "https://gemnasium.com/sferik/sign-in-with-twitter"}
-                  = t("nav.dependency_status")
-              %li
-                %a{:href => "https://github.com/sferik/sign-in-with-twitter"}
-                  = t("nav.source_code")
+                %a{:href => "http://www.jamesmk.com"}
+                  = t("nav.jamesmk")
     .container
       - if flash[:notice]
         .alert
