@@ -5032,3 +5032,4 @@ ActionController::RoutingError (No route matches [GET] "/auth/twitter"):
 
 
   Rendered /Users/james/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+Connecting to database specified by database.yml
