@@ -4690,3 +4690,107 @@ Connecting to database specified by database.yml
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-09 09:12:43 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (13.6ms)
+Compiled bootstrap.css  (0ms)  (pid 966)
+Compiled bootstrap-responsive.css  (0ms)  (pid 966)
+Compiled screen.css  (0ms)  (pid 966)
+Compiled application.css  (13ms)  (pid 966)
+Compiled jquery.js  (2ms)  (pid 966)
+Compiled jquery_ujs.js  (0ms)  (pid 966)
+Compiled json2.js  (1ms)  (pid 966)
+Compiled underscore.js  (0ms)  (pid 966)
+Compiled backbone.js  (1ms)  (pid 966)
+Compiled backbone-rails.js  (15ms)  (pid 966)
+Compiled bootstrap-alert.js  (0ms)  (pid 966)
+Compiled bootstrap-collapse.js  (0ms)  (pid 966)
+Compiled models/todo_item.js  (0ms)  (pid 966)
+Compiled collections/todo_items.js  (0ms)  (pid 966)
+Compiled views/todo_view.js  (0ms)  (pid 966)
+Compiled views/todos_view.js  (0ms)  (pid 966)
+Compiled router.js  (0ms)  (pid 966)
+Compiled start.js  (0ms)  (pid 966)
+Compiled application.js  (121ms)  (pid 966)
+Completed 200 OK in 4677ms (Views: 4676.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at 2013-05-09 09:12:48 -0700
+Served asset /backbone-rails.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-09 09:12:48 -0700
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at 2013-05-09 09:12:48 -0700
+Served asset /models/todo_item.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at 2013-05-09 09:12:48 -0700
+Served asset /collections/todo_items.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-05-09 09:12:48 -0700
+Served asset /bootstrap-responsive.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-05-09 09:12:48 -0700
+Served asset /bootstrap.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2013-05-09 09:12:48 -0700
+Served asset /screen.css - 200 OK (2ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at 2013-05-09 09:12:48 -0700
+Served asset /views/todos_view.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at 2013-05-09 09:12:48 -0700
+Served asset /views/todo_view.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/start.js?body=1" for 127.0.0.1 at 2013-05-09 09:12:48 -0700
+Served asset /start.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-05-09 09:12:48 -0700
+Served asset /backbone.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-09 09:12:48 -0700
+Served asset /bootstrap-alert.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-09 09:12:48 -0700
+Served asset /jquery.js - 304 Not Modified (53ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-09 09:12:48 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at 2013-05-09 09:12:48 -0700
+Served asset /json2.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-05-09 09:12:48 -0700
+Served asset /underscore.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2013-05-09 09:12:48 -0700
+Served asset /router.js - 304 Not Modified (2ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-05-09 09:12:49 -0700
+Processing by TodosController#index as JSON
+  [1m[36mTodo Load (0.6ms)[0m  [1mSELECT "todos".* FROM "todos" [0m
+Completed 200 OK in 70ms (Views: 3.9ms | ActiveRecord: 0.0ms)
