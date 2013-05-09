@@ -19,7 +19,7 @@ gem 'jquery-rails'
 gem 'backbone-rails', git: 'https://github.com/rubymaverick/backbone-rails.git'
 
 group :development, :test do
-  gem 'sqlite3'
+  # gem 'sqlite3'
 end
 
 group :production do
