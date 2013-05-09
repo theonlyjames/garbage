@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '1.9.2'
 
-gem 'rails', '~> 3.2'
+gem 'rails', '~> 3.2.2'
 
 gem 'haml'
 gem 'omniauth'
@@ -11,11 +11,20 @@ gem 'twitter-text'
 
 group :assets do
   gem 'sass-rails'
+  gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier'
+end
+
+gem 'jquery-rails'
+gem 'backbone-rails', git: 'https://github.com/rubymaverick/backbone-rails.git'
+
+group :development, :test do
+  gem 'sqlite3'
 end
 
 group :production do
   gem 'puma'
+  gem 'pg'
 end
 
 group :test do
