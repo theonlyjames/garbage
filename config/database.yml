@@ -1,11 +1,9 @@
 development:
   adapter: postgresql
+  database: sign_in_with_twitter_dev
   host: localhost
-  username: user
-  database: app-dev
 
 test:
-  adapter: sqlite3
-  database: db/development.sqlite3
-  pool: 5
-  timeout: 5000
+  adapter: postgresql
+  database: sign_in_with_twitter_test
+  host: localhost
