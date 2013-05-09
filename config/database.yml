@@ -1,6 +1,6 @@
 development:
   adapter: postgresql
-  database: sign_in_with_twitter_dev
+  database: HEROKU_POSTGRESQL_BRONZE_URL
   host: localhost
 
 test:
