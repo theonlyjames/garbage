@@ -23,8 +23,8 @@ group :development, :test do
 end
 
 group :production do
-  #gem 'puma'
   gem 'pg'
+  gem 'puma'
 end
 
 group :test do

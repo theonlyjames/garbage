@@ -90,6 +90,8 @@ GEM
       omniauth-oauth (~> 1.0)
     pg (0.15.1)
     polyglot (0.3.3)
+    puma (2.0.1)
+      rack (>= 1.1, < 2.0)
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -168,6 +170,7 @@ DEPENDENCIES
   omniauth
   omniauth-twitter
   pg
+  puma
   rails (~> 3.2.2)
   sass-rails
   simplecov
