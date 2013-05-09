@@ -1,4 +1,4 @@
-.row
+.row-disaply
   .span6
     %h1
       = @user.name
@@ -29,7 +29,7 @@
             = number_with_delimiter @user.followers_count
           %td
             = number_with_delimiter @user.favourites_count
-.row
+.row-disaply
   .span10
     - unless @user.status.blank?
       %blockquote
@@ -39,13 +39,16 @@
         %small
           = t("time.ago", :time => time_ago_in_words(@user.status.created_at).capitalize)
           = t("via.source", :source => @user.status.source).html_safe
+
+.row
   .span2
-    = form_tag(signout_path, :method => 'delete') do
-      %fieldset
-        .form-actions
-          %button.btn.btn-danger#sign_out
-            = t("button.sign_out")
+  = form_tag(signout_path, :method => 'delete') do
+    %fieldset
+      .form-actions
+        %button.btn.btn-danger#sign_out
+          = t("button.sign_out")
 .row
   .span6
     #app
     #todo
+
