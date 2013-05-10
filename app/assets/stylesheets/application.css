@@ -11,5 +11,6 @@
  *= require_self
  *= require bootstrap
  *= require bootstrap-responsive
+ *= screen
  *= require_tree .
  */
