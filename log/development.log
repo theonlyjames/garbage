@@ -11595,3 +11595,96 @@ Connecting to database specified by database.yml
   [1m[36m (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
 Migrating to CreateTodos (20120315184538)
   [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+
+
+Started GET "/profile" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Processing by SessionsController#show as HTML
+  Rendered sessions/show.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 388ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start.js?body=1" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Served asset /start.js - 304 Not Modified (0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-05-10 13:56:24 -0700
+Processing by TodosController#index as JSON
+  [1m[35mTodo Load (0.5ms)[0m  SELECT "todos".* FROM "todos" 
+Completed 200 OK in 11ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (16.6ms)[0m  [1mDROP TABLE "todos"[0m
+  [1m[35m (31.7ms)[0m  CREATE TABLE "todos" ("id" serial primary key, "description" character varying(255), "status" character varying(255), "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (0.5ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36mTodo Load (2.2ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."description" = 'Pick up milk' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (10.8ms)[0m  [1mINSERT INTO "todos" ("created_at", "description", "status", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Fri, 10 May 2013 20:59:59 UTC +00:00], ["description", "Pick up milk"], ["status", "incomplete"], ["updated_at", Fri, 10 May 2013 20:59:59 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mTodo Load (0.6ms)[0m  [1mSELECT "todos".* FROM "todos" WHERE "todos"."description" = 'Walk the dog' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "todos" ("created_at", "description", "status", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Fri, 10 May 2013 20:59:59 UTC +00:00], ["description", "Walk the dog"], ["status", "complete"], ["updated_at", Fri, 10 May 2013 20:59:59 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
