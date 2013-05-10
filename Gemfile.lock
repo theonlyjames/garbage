@@ -63,7 +63,7 @@ GEM
       multipart-post (~> 1.1)
     haml (4.0.2)
       tilt
-    hashie (2.0.4)
+    hashie (2.0.5)
     heroku (2.39.2)
       heroku-api (~> 0.3.7)
       launchy (>= 0.3.2)
