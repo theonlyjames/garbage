@@ -11421,3 +11421,177 @@ Started GET "/todos" for 127.0.0.1 at 2013-05-10 13:07:47 -0700
 Processing by TodosController#index as JSON
   [1m[36mTodo Load (1.2ms)[0m  [1mSELECT "todos".* FROM "todos" [0m
 Completed 200 OK in 17ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.haml within layouts/application (1.3ms)
+Completed 200 OK in 17ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Served asset /start.js - 304 Not Modified (0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-05-10 13:28:19 -0700
+Processing by TodosController#index as JSON
+  [1m[35mTodo Load (0.4ms)[0m  SELECT "todos".* FROM "todos" 
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter?utf8=%E2%9C%93" for 127.0.0.1 at 2013-05-10 13:28:21 -0700
+
+
+Started GET "/auth/twitter/callback?utf8=%E2%9C%93&oauth_token=vtxEVf0WDTHcQZkuUxKNAv2mODyeTLb2UdaeAH0dw&oauth_verifier=l57eknBdD5Wju4VDakOrMAXZLdIvdeecpffjMD1kWI" for 127.0.0.1 at 2013-05-10 13:28:26 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "oauth_token"=>"vtxEVf0WDTHcQZkuUxKNAv2mODyeTLb2UdaeAH0dw", "oauth_verifier"=>"l57eknBdD5Wju4VDakOrMAXZLdIvdeecpffjMD1kWI"}
+Redirected to http://localhost:3000/profile
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2013-05-10 13:28:27 -0700
+Processing by SessionsController#show as HTML
+  Rendered sessions/show.html.haml within layouts/application (0.1ms)
+Completed 200 OK in 382ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-05-10 13:28:28 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-05-10 13:28:28 -0700
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2013-05-10 13:28:28 -0700
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:28 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:28 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/json2.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:28 -0700
+Served asset /json2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:28 -0700
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:28 -0700
+Served asset /backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/backbone-rails.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:28 -0700
+Served asset /backbone-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:28 -0700
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:28 -0700
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/models/todo_item.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:28 -0700
+Served asset /models/todo_item.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/collections/todo_items.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:28 -0700
+Served asset /collections/todo_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todo_view.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:28 -0700
+Served asset /views/todo_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/views/todos_view.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:28 -0700
+Served asset /views/todos_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:28 -0700
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start.js?body=1" for 127.0.0.1 at 2013-05-10 13:28:28 -0700
+Served asset /start.js - 304 Not Modified (0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-05-10 13:28:28 -0700
+Processing by TodosController#index as JSON
+  [1m[36mTodo Load (4.8ms)[0m  [1mSELECT "todos".* FROM "todos" [0m
+Completed 200 OK in 16ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateTodos (20120315184538)
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 

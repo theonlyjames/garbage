@@ -1,7 +1,8 @@
 production:
   adapter: postgresql
-  database: d68rtln15e8hbr
   host: ec2-54-243-229-57.compute-1.amazonaws.com
+  database: d68rtln15e8hbr
+  user: sembfxvxuvmimc
   password: jlZB7lwS3_P9g1fiH-0qjDecvY
   port: 5432
 
